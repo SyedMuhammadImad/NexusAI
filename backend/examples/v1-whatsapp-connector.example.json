@@ -1,0 +1,8 @@
+{
+  "backend_url": "http://127.0.0.1:8000/",
+  "connector_token": "REPLACE_WITH_OPERATOR_GENERATED_SECRET",
+  "source_id": "REPLACE_WITH_AUTHORIZED_SOURCE_ID",
+  "group_id": "REPLACE_WITH_AUTHENTICATED_GROUP_ID@g.us",
+  "sender_ids": ["REPLACE_WITH_AUTHENTICATED_SENDER_ID"],
+  "browser_executable": "C:\\REPLACE_WITH_VERIFIED_BROWSER_PATH\\browser.exe"
+}

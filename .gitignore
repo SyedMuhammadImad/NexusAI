@@ -1,0 +1,98 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Secrets / Env
+# Approved runtime secrets: local .env variants and backend/private/ only.
+# Keep reviewed placeholder templates trackable; never store real secrets there.
+.env
+.env.*
+!.env.example
+
+# Runtime data and databases
+/research/p5-market-data/
+/research/p8-intelligence/
+/.p3-verification/
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite3-wal
+*.sqlite3-shm
+*.sqlite3-journal
+.pytest_cache/
+backend/data/lifecycle/
+backend/data/*.db
+backend/data/*.db-journal
+backend/data/private_*
+backend/models/checkpoints/
+backend/private/
+
+# Local Obsidian UI/config state; no cross-machine settings approved for tracking.
+/knowledge/.obsidian/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+*.code-workspace
+
+# Logs / temp
+logs/
+tmp/
+temp/
+
+# Public-source policy: never commit media, credentials or private exports.
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.bmp
+*.tif
+*.tiff
+*.ico
+*.svg
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.wav
+*.mp3
+*.pdf
+*.zip
+*.7z
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.onnx
+*.pem
+*.key
+*.pfx
+*.p12
+*.kdbx
+PUBLICATION_CHECKS.local.json

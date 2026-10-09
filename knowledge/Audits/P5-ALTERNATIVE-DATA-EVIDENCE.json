@@ -1,0 +1,815 @@
+{
+  "audit_report_id": "9057b9c919b4a06c4ab2ba615501e77526c48e29a67dddf373c8125138d20270",
+  "audit_path": "research/p5-market-data/alternative-audit-9057b9c919b4a06c4ab2ba615501e77526c48e29a67dddf373c8125138d20270.json",
+  "attribution": "EV Trading Labs",
+  "provider": "EV_TRADING_LABS",
+  "upstream": "Dukascopy, distributor assertion",
+  "acquired_start": "2021-01-01T00:00:00+00:00",
+  "acquired_end_exclusive": "2026-01-01T00:00:00+00:00",
+  "common_qualified_start": "2025-09-02T00:00:00+00:00",
+  "common_qualified_end_exclusive": "2025-11-27T20:00:00+00:00",
+  "common_calendar_days": 86.83333333333333,
+  "datasets": [
+    {
+      "instrument": "XAUUSD",
+      "timeframe": "1H",
+      "dataset_id": "fbc58e02da92f01faf51d03b62515b06f1fc5f3a7b8c5bcfa0c0605f6674220e",
+      "qualification_id": "170c94c4598fc25fd728f00c36f2b8f1f2fe4fce44d0867e107163b28c098db8",
+      "calendar_id": "4571e4f325113b8364b1784c09cfd280cb6659a97de15674d48e00ffa9b6058f",
+      "acquisition_bar_count": 29563,
+      "full_period_expected_bars": 29992,
+      "full_period_known_closure_bars": 13832,
+      "full_period_unexplained_bins": 429,
+      "full_period_longest_unexplained_gap_seconds": 82800,
+      "state": "QUALIFIED_WITH_KNOWN_LIMITATIONS",
+      "qualified_common_bars": 1445,
+      "qualified_common_unexplained_bins": 0,
+      "qualified_common_expected_bars": 1445,
+      "qualified_common_closed_bins": 639,
+      "kline_row_hash": "f6b6d98d1e9a6e4fea33e72c79af98f9ee91399575f3130b78e5e5ce3de07e40",
+      "sources": [
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/XAUUSD/H1/2021.json.gz",
+          "sha256": "78880c3bd96a3df6b18f5106a459a8ab1296a9cdf08a2144214bfa3a4ffcce3e",
+          "bytes": 195821,
+          "raw_observations": 5907,
+          "ingested_at": "2026-09-15T14:48:45.067511+00:00"
+        },
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/XAUUSD/H1/2022.json.gz",
+          "sha256": "086aec7b9b35dfd7be04476c8ab3ca209f2eff3a2bf882a6f0cae75ad2f63a40",
+          "bytes": 198478,
+          "raw_observations": 5915,
+          "ingested_at": "2026-09-15T14:48:45.067511+00:00"
+        },
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/XAUUSD/H1/2023.json.gz",
+          "sha256": "8526d67e84070c87f8ad8f9f6cebd183eb26158d9f9a94c897d08ceb8b797686",
+          "bytes": 195329,
+          "raw_observations": 5890,
+          "ingested_at": "2026-09-15T14:48:45.067511+00:00"
+        },
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/XAUUSD/H1/2024.json.gz",
+          "sha256": "4c6f0ee8b0a9db5fe5fe724d86ac80142b45aa9bbf1c1b83e70419a62bfce952",
+          "bytes": 199598,
+          "raw_observations": 5938,
+          "ingested_at": "2026-09-15T14:48:45.067511+00:00"
+        },
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/XAUUSD/H1/2025.json.gz",
+          "sha256": "45d88aa1d92118a032480594ab66089350ee17752f3a82cfa4a53a768b3a65ce",
+          "bytes": 206475,
+          "raw_observations": 5913,
+          "ingested_at": "2026-09-15T14:48:45.067511+00:00"
+        }
+      ],
+      "price_basis": "BID_WITH_SEPARATE_ASK_OHLC",
+      "mapping": {
+        "basis": "Gold/USD research proxy; broker equivalence unproven",
+        "broker_symbol": "XAUUSDm",
+        "provider_symbol": "XAUUSD",
+        "upstream": "Dukascopy, as reported by EV Trading Labs"
+      },
+      "limitations": [
+        "Provider-native H1 bars; sub-hour completeness not independently attested",
+        "Historical regular-session inference only; unconfirmed holidays remain UNKNOWN",
+        "No bridging unknown intervals, no synthetic fill, no mixed providers",
+        "Bid and ask extrema need not be simultaneous; no intrabar spread inference",
+        "Provider v units unknown; not validated exchange or tick volume",
+        "WTI construction/roll and broker equivalence unverified; research proxy only"
+      ]
+    },
+    {
+      "instrument": "XAUUSD",
+      "timeframe": "4H",
+      "dataset_id": "c475e55d548f51300bbd4fe5ab502d2bcbc2f9ac606a317513ac38bc66198918",
+      "qualification_id": "8a2464a3631688350109b9e5ef91abf409851d4a70bbb7aae681bbcf724865db",
+      "calendar_id": "4571e4f325113b8364b1784c09cfd280cb6659a97de15674d48e00ffa9b6058f",
+      "acquisition_bar_count": 7996,
+      "full_period_expected_bars": 8085,
+      "full_period_known_closure_bars": 2871,
+      "full_period_unexplained_bins": 167,
+      "full_period_longest_unexplained_gap_seconds": 115200,
+      "state": "QUALIFIED_WITH_KNOWN_LIMITATIONS",
+      "qualified_common_bars": 389,
+      "qualified_common_unexplained_bins": 0,
+      "qualified_common_expected_bars": 389,
+      "qualified_common_closed_bins": 132,
+      "kline_row_hash": "d248608e017c81bf9c008be28325e576375e25e97ea7eb8bc190bf1d4ff2e666",
+      "sources": [
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/XAUUSD/H4/2021.json.gz",
+          "sha256": "da6531c6124a6ac2f5c0387ad75dfbd494490ac8fb4a4ed67375572173d2c001",
+          "bytes": 56821,
+          "raw_observations": 1599,
+          "ingested_at": "2026-09-15T14:48:52.984602+00:00"
+        },
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/XAUUSD/H4/2022.json.gz",
+          "sha256": "fc577502bec518c228b199467357617c4ed317510f1912f0a85dbc61503522b1",
+          "bytes": 57584,
+          "raw_observations": 1599,
+          "ingested_at": "2026-09-15T14:48:52.984602+00:00"
+        },
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/XAUUSD/H4/2023.json.gz",
+          "sha256": "8f1ec2fcf4e1d6a4658d0a012ec13ca0feced4595c3cc4c9d27080820bad662c",
+          "bytes": 56844,
+          "raw_observations": 1593,
+          "ingested_at": "2026-09-15T14:48:52.984602+00:00"
+        },
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/XAUUSD/H4/2024.json.gz",
+          "sha256": "c7bcbd1090f1adaa4094e3ba288e8ca9a9b760651c4c89a9572a836ecb01294c",
+          "bytes": 57704,
+          "raw_observations": 1606,
+          "ingested_at": "2026-09-15T14:48:52.984602+00:00"
+        },
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/XAUUSD/H4/2025.json.gz",
+          "sha256": "d888bb4e14ec8723ddd38b46bdf39bc51f093b01bdfb0c00a17175fbad2b4731",
+          "bytes": 59547,
+          "raw_observations": 1599,
+          "ingested_at": "2026-09-15T14:48:52.984602+00:00"
+        }
+      ],
+      "price_basis": "BID_WITH_SEPARATE_ASK_OHLC",
+      "mapping": {
+        "basis": "Gold/USD research proxy; broker equivalence unproven",
+        "broker_symbol": "XAUUSDm",
+        "provider_symbol": "XAUUSD",
+        "upstream": "Dukascopy, as reported by EV Trading Labs"
+      },
+      "limitations": [
+        "Provider-native H1 bars; sub-hour completeness not independently attested",
+        "Historical regular-session inference only; unconfirmed holidays remain UNKNOWN",
+        "No bridging unknown intervals, no synthetic fill, no mixed providers",
+        "Bid and ask extrema need not be simultaneous; no intrabar spread inference",
+        "Provider v units unknown; not validated exchange or tick volume",
+        "WTI construction/roll and broker equivalence unverified; research proxy only"
+      ]
+    },
+    {
+      "instrument": "XAGUSD",
+      "timeframe": "1H",
+      "dataset_id": "1f4d67a2ed1f7db36a60577d51f6203fe17b4ea8230113dfc1705782a6a6a908",
+      "qualification_id": "4353a8ed3c7ee24aeacf684af600ad6280b2a1310623b90bc55d9c49d262072a",
+      "calendar_id": "c85291261ef6c6aa320350020c992facb76c3d40c6913fada9073eec9e3d971a",
+      "acquisition_bar_count": 29563,
+      "full_period_expected_bars": 29992,
+      "full_period_known_closure_bars": 13832,
+      "full_period_unexplained_bins": 429,
+      "full_period_longest_unexplained_gap_seconds": 82800,
+      "state": "QUALIFIED_WITH_KNOWN_LIMITATIONS",
+      "qualified_common_bars": 1445,
+      "qualified_common_unexplained_bins": 0,
+      "qualified_common_expected_bars": 1445,
+      "qualified_common_closed_bins": 639,
+      "kline_row_hash": "b906df4c93b2ac9afeac29ae05b382252f0c435ed32f68117c1d6434dcdfdd4f",
+      "sources": [
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/XAGUSD/H1/2021.json.gz",
+          "sha256": "92e5ee4bea29ba30a20a3e1ac723aff35541d60252c12237d80864c1451a3f5a",
+          "bytes": 178611,
+          "raw_observations": 5907,
+          "ingested_at": "2026-09-15T14:49:05.322931+00:00"
+        },
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/XAGUSD/H1/2022.json.gz",
+          "sha256": "91a8152b5786c555c4f7d71bb03b249f35438fa2fc1b97b299012f52dce8ff9e",
+          "bytes": 179022,
+          "raw_observations": 5915,
+          "ingested_at": "2026-09-15T14:49:05.322931+00:00"
+        },
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/XAGUSD/H1/2023.json.gz",
+          "sha256": "f231d2ad0a0ccb37fc5332cc75cd75098a80aef54b257ae3c25d2d6853f34123",
+          "bytes": 176945,
+          "raw_observations": 5890,
+          "ingested_at": "2026-09-15T14:49:05.322931+00:00"
+        },
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/XAGUSD/H1/2024.json.gz",
+          "sha256": "fe5a0301397cb3b046b5f32a26ed332b163c3e1754c45eeef34473abcc383be7",
+          "bytes": 183264,
+          "raw_observations": 5938,
+          "ingested_at": "2026-09-15T14:49:05.322931+00:00"
+        },
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/XAGUSD/H1/2025.json.gz",
+          "sha256": "b479987417cd60fa5c1226c47ac3d8e0c9e0d3296a7f0baee9d1cb7e7a28fc0c",
+          "bytes": 185792,
+          "raw_observations": 5913,
+          "ingested_at": "2026-09-15T14:49:05.322931+00:00"
+        }
+      ],
+      "price_basis": "BID_WITH_SEPARATE_ASK_OHLC",
+      "mapping": {
+        "basis": "Silver/USD research proxy; broker equivalence unproven",
+        "broker_symbol": "XAGUSDm",
+        "provider_symbol": "XAGUSD",
+        "upstream": "Dukascopy, as reported by EV Trading Labs"
+      },
+      "limitations": [
+        "Provider-native H1 bars; sub-hour completeness not independently attested",
+        "Historical regular-session inference only; unconfirmed holidays remain UNKNOWN",
+        "No bridging unknown intervals, no synthetic fill, no mixed providers",
+        "Bid and ask extrema need not be simultaneous; no intrabar spread inference",
+        "Provider v units unknown; not validated exchange or tick volume",
+        "WTI construction/roll and broker equivalence unverified; research proxy only"
+      ]
+    },
+    {
+      "instrument": "XAGUSD",
+      "timeframe": "4H",
+      "dataset_id": "827f905b9a22a76cb0635c73c9b3c22a41c435c4c6c826dc8b40dabf9933f8b6",
+      "qualification_id": "419fef7f378651bfd4e74f1d9586742c0999c8f34f4536fbe6670cae915bf94d",
+      "calendar_id": "c85291261ef6c6aa320350020c992facb76c3d40c6913fada9073eec9e3d971a",
+      "acquisition_bar_count": 7996,
+      "full_period_expected_bars": 8085,
+      "full_period_known_closure_bars": 2871,
+      "full_period_unexplained_bins": 167,
+      "full_period_longest_unexplained_gap_seconds": 115200,
+      "state": "QUALIFIED_WITH_KNOWN_LIMITATIONS",
+      "qualified_common_bars": 389,
+      "qualified_common_unexplained_bins": 0,
+      "qualified_common_expected_bars": 389,
+      "qualified_common_closed_bins": 132,
+      "kline_row_hash": "a218b11931ea5f4a6bc1ebb693092dd29e0778f20fa485b8c0c6ef7198f79392",
+      "sources": [
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/XAGUSD/H4/2021.json.gz",
+          "sha256": "fba901afe95965ce4d2342e4f845a73a78fc4b5fe2c5ec951a582b8e18485145",
+          "bytes": 52648,
+          "raw_observations": 1599,
+          "ingested_at": "2026-09-15T14:49:13.650009+00:00"
+        },
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/XAGUSD/H4/2022.json.gz",
+          "sha256": "ee33c1c2dc9af49d9b3972b4ae834525d5d84b838a4e823251eb2bfce6f45f93",
+          "bytes": 52795,
+          "raw_observations": 1599,
+          "ingested_at": "2026-09-15T14:49:13.650009+00:00"
+        },
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/XAGUSD/H4/2023.json.gz",
+          "sha256": "49cd7aa0afeebb82cb9947277adaa536f79a4f91cb9ca1cfaa098e961d1de75c",
+          "bytes": 52135,
+          "raw_observations": 1593,
+          "ingested_at": "2026-09-15T14:49:13.650009+00:00"
+        },
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/XAGUSD/H4/2024.json.gz",
+          "sha256": "7c2fd9b523417e6e5facb435716ad3f36a9d5dff06d14106c7b3b2edcb4af536",
+          "bytes": 53744,
+          "raw_observations": 1606,
+          "ingested_at": "2026-09-15T14:49:13.650009+00:00"
+        },
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/XAGUSD/H4/2025.json.gz",
+          "sha256": "0128933cb878af671b252df8caf4544b81a76f1648c4b9fdc9e829a068c6416f",
+          "bytes": 55126,
+          "raw_observations": 1599,
+          "ingested_at": "2026-09-15T14:49:13.650009+00:00"
+        }
+      ],
+      "price_basis": "BID_WITH_SEPARATE_ASK_OHLC",
+      "mapping": {
+        "basis": "Silver/USD research proxy; broker equivalence unproven",
+        "broker_symbol": "XAGUSDm",
+        "provider_symbol": "XAGUSD",
+        "upstream": "Dukascopy, as reported by EV Trading Labs"
+      },
+      "limitations": [
+        "Provider-native H1 bars; sub-hour completeness not independently attested",
+        "Historical regular-session inference only; unconfirmed holidays remain UNKNOWN",
+        "No bridging unknown intervals, no synthetic fill, no mixed providers",
+        "Bid and ask extrema need not be simultaneous; no intrabar spread inference",
+        "Provider v units unknown; not validated exchange or tick volume",
+        "WTI construction/roll and broker equivalence unverified; research proxy only"
+      ]
+    },
+    {
+      "instrument": "USOIL",
+      "timeframe": "1H",
+      "dataset_id": "1889257a8e67cf363dd2bdd67ee25ff9482b227ec2c89e13c30d2bbadd317d70",
+      "qualification_id": "5996cc6159cd3c0ad660a371a2eda64c38359d36b7fe8d47bdc15f68bbc4ecac",
+      "calendar_id": "5594ddca1e47d1ab88c80a03733616020b07d0370430e5d3a37cae2287402a8e",
+      "acquisition_bar_count": 29551,
+      "full_period_expected_bars": 29992,
+      "full_period_known_closure_bars": 13832,
+      "full_period_unexplained_bins": 441,
+      "full_period_longest_unexplained_gap_seconds": 82800,
+      "state": "QUALIFIED_WITH_KNOWN_LIMITATIONS",
+      "qualified_common_bars": 1445,
+      "qualified_common_unexplained_bins": 0,
+      "qualified_common_expected_bars": 1445,
+      "qualified_common_closed_bins": 639,
+      "kline_row_hash": "9a8a6ef3d57743caef2a88e06f37d2675fee547a15d6ca944e82ea6f036197c8",
+      "sources": [
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/WTI/H1/2021.json.gz",
+          "sha256": "0dadeb73c07ec22d0e1faa9468bc2a90fd02cf5baa53fd5fa249b7bb7097582c",
+          "bytes": 172391,
+          "raw_observations": 5907,
+          "ingested_at": "2026-09-15T14:49:23.788103+00:00"
+        },
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/WTI/H1/2022.json.gz",
+          "sha256": "fdd88b33942b5c71116b67b6ace6d396d999758175dbdf6fa36bf4eb6695d816",
+          "bytes": 189872,
+          "raw_observations": 5915,
+          "ingested_at": "2026-09-15T14:49:23.788103+00:00"
+        },
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/WTI/H1/2023.json.gz",
+          "sha256": "8dfa749bf8427fb5f241584a460fdc1a38b73c44d354a555671df84dcc9c2751",
+          "bytes": 173016,
+          "raw_observations": 5890,
+          "ingested_at": "2026-09-15T14:49:23.788103+00:00"
+        },
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/WTI/H1/2024.json.gz",
+          "sha256": "ce4943d57aca95efbf38f069e98cef5d9d068908c2caa2d4ec8a8dc39bddb935",
+          "bytes": 167264,
+          "raw_observations": 5936,
+          "ingested_at": "2026-09-15T14:49:23.788103+00:00"
+        },
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/WTI/H1/2025.json.gz",
+          "sha256": "5b65a33c3054f105561d5ff1d6bffb8e772396b099d94db8ea8c5abf6bc71738",
+          "bytes": 165288,
+          "raw_observations": 5903,
+          "ingested_at": "2026-09-15T14:49:23.788103+00:00"
+        }
+      ],
+      "price_basis": "BID_WITH_SEPARATE_ASK_OHLC",
+      "mapping": {
+        "basis": "Provider WTI research proxy; exact upstream contract/roll construction unverified",
+        "broker_symbol": "USOILm",
+        "provider_symbol": "WTI",
+        "upstream": "Dukascopy, as reported by EV Trading Labs"
+      },
+      "limitations": [
+        "Provider-native H1 bars; sub-hour completeness not independently attested",
+        "Historical regular-session inference only; unconfirmed holidays remain UNKNOWN",
+        "No bridging unknown intervals, no synthetic fill, no mixed providers",
+        "Bid and ask extrema need not be simultaneous; no intrabar spread inference",
+        "Provider v units unknown; not validated exchange or tick volume",
+        "WTI construction/roll and broker equivalence unverified; research proxy only"
+      ]
+    },
+    {
+      "instrument": "USOIL",
+      "timeframe": "4H",
+      "dataset_id": "e1c28463fcdc28055fd2ef203f8297c8e853ccf7f6c196bf331c261f13069612",
+      "qualification_id": "21192ef092ad907f8fab3193cb0e04aecac171eb28dd44125e33e53d2fd07338",
+      "calendar_id": "5594ddca1e47d1ab88c80a03733616020b07d0370430e5d3a37cae2287402a8e",
+      "acquisition_bar_count": 7994,
+      "full_period_expected_bars": 8085,
+      "full_period_known_closure_bars": 2871,
+      "full_period_unexplained_bins": 173,
+      "full_period_longest_unexplained_gap_seconds": 115200,
+      "state": "QUALIFIED_WITH_KNOWN_LIMITATIONS",
+      "qualified_common_bars": 389,
+      "qualified_common_unexplained_bins": 0,
+      "qualified_common_expected_bars": 389,
+      "qualified_common_closed_bins": 132,
+      "kline_row_hash": "fe60569f2cbe8a3d8f8dea575a8bf4da59594812429eabfcc7925f1782e4d92a",
+      "sources": [
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/WTI/H4/2021.json.gz",
+          "sha256": "4fb4acb6275e9eba946fb3d3c5fc2a9cf52153878aeac800c3bd11c69edd5dd6",
+          "bytes": 51536,
+          "raw_observations": 1599,
+          "ingested_at": "2026-09-15T14:49:33.651088+00:00"
+        },
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/WTI/H4/2022.json.gz",
+          "sha256": "7a5dae29e332b48971dd09b2d50d9ecce1a291cf9fcdb0d71ddb61d0999700b8",
+          "bytes": 55490,
+          "raw_observations": 1599,
+          "ingested_at": "2026-09-15T14:49:33.651088+00:00"
+        },
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/WTI/H4/2023.json.gz",
+          "sha256": "a753b97311904184318f1e89ff684c52f213356b3574fa111e073669ee784d5b",
+          "bytes": 51566,
+          "raw_observations": 1593,
+          "ingested_at": "2026-09-15T14:49:33.651088+00:00"
+        },
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/WTI/H4/2024.json.gz",
+          "sha256": "055f18465823a1eaaaf193a2636567cbca2cdd2dfc5ad83d02a48172fba11f85",
+          "bytes": 49909,
+          "raw_observations": 1606,
+          "ingested_at": "2026-09-15T14:49:33.651088+00:00"
+        },
+        {
+          "url": "https://evtradelabs.com/api/simulator/data/WTI/H4/2025.json.gz",
+          "sha256": "c02b3780a384d69d9db64d3ca3f0b3580d8a67f877425778fd628cb627a9c25e",
+          "bytes": 49771,
+          "raw_observations": 1597,
+          "ingested_at": "2026-09-15T14:49:33.651088+00:00"
+        }
+      ],
+      "price_basis": "BID_WITH_SEPARATE_ASK_OHLC",
+      "mapping": {
+        "basis": "Provider WTI research proxy; exact upstream contract/roll construction unverified",
+        "broker_symbol": "USOILm",
+        "provider_symbol": "WTI",
+        "upstream": "Dukascopy, as reported by EV Trading Labs"
+      },
+      "limitations": [
+        "Provider-native H1 bars; sub-hour completeness not independently attested",
+        "Historical regular-session inference only; unconfirmed holidays remain UNKNOWN",
+        "No bridging unknown intervals, no synthetic fill, no mixed providers",
+        "Bid and ask extrema need not be simultaneous; no intrabar spread inference",
+        "Provider v units unknown; not validated exchange or tick volume",
+        "WTI construction/roll and broker equivalence unverified; research proxy only"
+      ]
+    }
+  ],
+  "cross_provider_checks": [
+    {
+      "left_dataset": "fbc58e02da92f01faf51d03b62515b06f1fc5f3a7b8c5bcfa0c0605f6674220e",
+      "right_dataset": "c254adbcd70038ee533d04ea01486eb0620af2a6826f1b0e231146a627b106d7",
+      "left_provider": "EV_TRADING_LABS",
+      "right_provider": "HISTDATA",
+      "instrument": "XAUUSD",
+      "paired_bars": 5711,
+      "first": "2021-01-03T23:00:00+00:00",
+      "last": "2021-12-31T20:00:00+00:00",
+      "price_basis": "BID_CLOSE",
+      "price_correlation": 0.9987870364444127,
+      "hourly_return_pairs": 5442,
+      "hourly_return_correlation": 0.44241236687645036,
+      "median_relative_offset": 1.1004804698721901e-06,
+      "median_absolute_relative_offset": 0.00019909603798876297,
+      "largest_offsets": [
+        {
+          "at": "2021-10-22T15:00:00+00:00",
+          "relative_offset": -0.014412861080418197,
+          "left": 1785.74,
+          "right": 1811.854
+        },
+        {
+          "at": "2021-06-16T18:00:00+00:00",
+          "relative_offset": -0.014335300354837412,
+          "left": 1835.01,
+          "right": 1861.698
+        },
+        {
+          "at": "2021-08-06T12:00:00+00:00",
+          "relative_offset": -0.012868858562586565,
+          "left": 1776.38,
+          "right": 1799.538
+        },
+        {
+          "at": "2021-04-29T13:00:00+00:00",
+          "relative_offset": -0.012611320975197637,
+          "left": 1757.54,
+          "right": 1779.988
+        },
+        {
+          "at": "2021-10-13T13:00:00+00:00",
+          "relative_offset": 0.0113433676325162,
+          "left": 1781.54,
+          "right": 1761.558
+        },
+        {
+          "at": "2021-05-06T13:00:00+00:00",
+          "relative_offset": 0.010605438869585863,
+          "left": 1812.63,
+          "right": 1793.608
+        },
+        {
+          "at": "2021-05-04T15:00:00+00:00",
+          "relative_offset": -0.010568256223791891,
+          "left": 1775.56,
+          "right": 1794.525
+        },
+        {
+          "at": "2021-05-07T12:00:00+00:00",
+          "relative_offset": 0.010244477350336938,
+          "left": 1838.65,
+          "right": 1820.005
+        },
+        {
+          "at": "2021-08-04T14:00:00+00:00",
+          "relative_offset": -0.009436747870744243,
+          "left": 1811.55,
+          "right": 1828.808
+        },
+        {
+          "at": "2021-06-18T12:00:00+00:00",
+          "relative_offset": -0.009369331604548201,
+          "left": 1777.13,
+          "right": 1793.938
+        }
+      ],
+      "diagnostic_histdata_timestamp_offset_hours": {
+        "JAN_FEB_DEC": {
+          "-2": {
+            "pairs": 1228,
+            "correlation": -0.0026960293494437946
+          },
+          "-1": {
+            "pairs": 1290,
+            "correlation": -0.005774606386920283
+          },
+          "0": {
+            "pairs": 1348,
+            "correlation": 0.9999988750215844
+          },
+          "1": {
+            "pairs": 1288,
+            "correlation": -0.005057134156659985
+          },
+          "2": {
+            "pairs": 1226,
+            "correlation": -0.0027737041667700198
+          }
+        },
+        "APR_OCT": {
+          "-2": {
+            "pairs": 2934,
+            "correlation": -0.028366440497194167
+          },
+          "-1": {
+            "pairs": 2971,
+            "correlation": 0.012814601850116791
+          },
+          "0": {
+            "pairs": 3122,
+            "correlation": -0.031720257949361626
+          },
+          "1": {
+            "pairs": 3267,
+            "correlation": 0.9999211089477366
+          },
+          "2": {
+            "pairs": 3129,
+            "correlation": -0.0297432664187268
+          }
+        }
+      },
+      "equivalent_contract_proven": false,
+      "data_modified": false
+    },
+    {
+      "left_dataset": "1f4d67a2ed1f7db36a60577d51f6203fe17b4ea8230113dfc1705782a6a6a908",
+      "right_dataset": "a596229b6024ae23313e703177fa054946b6fa4e0f08a9721847781b4410787b",
+      "left_provider": "EV_TRADING_LABS",
+      "right_provider": "HISTDATA",
+      "instrument": "XAGUSD",
+      "paired_bars": 4921,
+      "first": "2021-01-03T23:00:00+00:00",
+      "last": "2021-12-31T20:00:00+00:00",
+      "price_basis": "BID_CLOSE",
+      "price_correlation": 0.9993110040574619,
+      "hourly_return_pairs": 4420,
+      "hourly_return_correlation": 0.5467630345433685,
+      "median_relative_offset": 0.0,
+      "median_absolute_relative_offset": 0.0003439972480220289,
+      "largest_offsets": [
+        {
+          "at": "2021-05-04T15:00:00+00:00",
+          "relative_offset": -0.025002790490010068,
+          "left": 26.205,
+          "right": 26.877
+        },
+        {
+          "at": "2021-10-08T12:00:00+00:00",
+          "relative_offset": 0.024100128711553096,
+          "left": 23.074,
+          "right": 22.531
+        },
+        {
+          "at": "2021-04-29T13:00:00+00:00",
+          "relative_offset": -0.022755717373990268,
+          "left": 25.767,
+          "right": 26.367
+        },
+        {
+          "at": "2021-08-08T23:00:00+00:00",
+          "relative_offset": 0.022056269538034003,
+          "left": 23.54,
+          "right": 23.032
+        },
+        {
+          "at": "2021-10-22T15:00:00+00:00",
+          "relative_offset": -0.020762643399579873,
+          "left": 24.242,
+          "right": 24.756
+        },
+        {
+          "at": "2021-08-27T14:00:00+00:00",
+          "relative_offset": 0.020236877982276663,
+          "left": 23.947,
+          "right": 23.472
+        },
+        {
+          "at": "2021-09-29T13:00:00+00:00",
+          "relative_offset": -0.020152726944105623,
+          "left": 21.685,
+          "right": 22.131
+        },
+        {
+          "at": "2021-05-06T13:00:00+00:00",
+          "relative_offset": 0.019235797258432025,
+          "left": 27.288,
+          "right": 26.773
+        },
+        {
+          "at": "2021-08-06T12:00:00+00:00",
+          "relative_offset": -0.01780296982276856,
+          "left": 24.606,
+          "right": 25.052
+        },
+        {
+          "at": "2021-08-04T14:00:00+00:00",
+          "relative_offset": -0.016891500135286522,
+          "left": 25.434,
+          "right": 25.871
+        }
+      ],
+      "diagnostic_histdata_timestamp_offset_hours": {
+        "JAN_FEB_DEC": {
+          "-2": {
+            "pairs": 1056,
+            "correlation": -0.0426207544462294
+          },
+          "-1": {
+            "pairs": 1102,
+            "correlation": -0.005835014766495479
+          },
+          "0": {
+            "pairs": 1128,
+            "correlation": 1.0
+          },
+          "1": {
+            "pairs": 1085,
+            "correlation": -0.007296982187856828
+          },
+          "2": {
+            "pairs": 1035,
+            "correlation": -0.030302979040410755
+          }
+        },
+        "APR_OCT": {
+          "-2": {
+            "pairs": 2279,
+            "correlation": -0.022879698736667533
+          },
+          "-1": {
+            "pairs": 2367,
+            "correlation": 0.014316193247433039
+          },
+          "0": {
+            "pairs": 2454,
+            "correlation": -0.024537583321217537
+          },
+          "1": {
+            "pairs": 2470,
+            "correlation": 0.9998778076883408
+          },
+          "2": {
+            "pairs": 2452,
+            "correlation": -0.02913342755026035
+          }
+        }
+      },
+      "equivalent_contract_proven": false,
+      "data_modified": false
+    },
+    {
+      "left_dataset": "1889257a8e67cf363dd2bdd67ee25ff9482b227ec2c89e13c30d2bbadd317d70",
+      "right_dataset": "fb1ff343f833a36a73cd9af75cf4268ac17336c0b2843dd4b593278c93b1efbe",
+      "left_provider": "EV_TRADING_LABS",
+      "right_provider": "HISTDATA",
+      "instrument": "USOIL",
+      "paired_bars": 4363,
+      "first": "2021-01-03T23:00:00+00:00",
+      "last": "2021-12-31T20:00:00+00:00",
+      "price_basis": "BID_CLOSE",
+      "price_correlation": 0.999613677138077,
+      "hourly_return_pairs": 3814,
+      "hourly_return_correlation": 0.5497745662262731,
+      "median_relative_offset": 0.0,
+      "median_absolute_relative_offset": 0.0004687161983510982,
+      "largest_offsets": [
+        {
+          "at": "2021-09-30T15:00:00+00:00",
+          "relative_offset": 0.02700795309573566,
+          "left": 75.672,
+          "right": 73.682
+        },
+        {
+          "at": "2021-04-20T14:00:00+00:00",
+          "relative_offset": -0.025611524397932166,
+          "left": 61.823,
+          "right": 63.448
+        },
+        {
+          "at": "2021-04-05T16:00:00+00:00",
+          "relative_offset": -0.023860694160052858,
+          "left": 57.683,
+          "right": 59.093
+        },
+        {
+          "at": "2021-08-03T12:00:00+00:00",
+          "relative_offset": -0.021865050981052122,
+          "left": 69.742,
+          "right": 71.301
+        },
+        {
+          "at": "2021-08-02T14:00:00+00:00",
+          "relative_offset": -0.020955459376540857,
+          "left": 71.482,
+          "right": 73.012
+        },
+        {
+          "at": "2021-04-07T16:00:00+00:00",
+          "relative_offset": 0.02060333430626849,
+          "left": 59.443,
+          "right": 58.243
+        },
+        {
+          "at": "2021-04-14T14:00:00+00:00",
+          "relative_offset": 0.020164896817523863,
+          "left": 62.733,
+          "right": 61.493
+        },
+        {
+          "at": "2021-05-20T08:00:00+00:00",
+          "relative_offset": -0.019656251474218858,
+          "left": 62.343,
+          "right": 63.593
+        },
+        {
+          "at": "2021-03-31T17:00:00+00:00",
+          "relative_offset": -0.019403745909591694,
+          "left": 59.633,
+          "right": 60.813
+        },
+        {
+          "at": "2021-06-18T13:00:00+00:00",
+          "relative_offset": 0.019240873010238187,
+          "left": 71.778,
+          "right": 70.423
+        }
+      ],
+      "diagnostic_histdata_timestamp_offset_hours": {
+        "JAN_FEB_DEC": {
+          "-2": {
+            "pairs": 856,
+            "correlation": -1.5443050505586e-06
+          },
+          "-1": {
+            "pairs": 890,
+            "correlation": -0.06890619829292759
+          },
+          "0": {
+            "pairs": 909,
+            "correlation": 1.0
+          },
+          "1": {
+            "pairs": 892,
+            "correlation": -0.05856315566118096
+          },
+          "2": {
+            "pairs": 870,
+            "correlation": -0.009533358032011526
+          }
+        },
+        "APR_OCT": {
+          "-2": {
+            "pairs": 1947,
+            "correlation": -0.027100054399750894
+          },
+          "-1": {
+            "pairs": 2061,
+            "correlation": -0.04517527042195693
+          },
+          "0": {
+            "pairs": 2110,
+            "correlation": 0.02604227406345096
+          },
+          "1": {
+            "pairs": 2117,
+            "correlation": 0.9999798311497193
+          },
+          "2": {
+            "pairs": 2109,
+            "correlation": 0.026430413010289776
+          }
+        }
+      },
+      "equivalent_contract_proven": false,
+      "data_modified": false
+    }
+  ],
+  "evidence_id": "821c867d5b29065f54d1df5f5876ba995da8b9a71557e79427c91a44c3ae3ba5"
+}

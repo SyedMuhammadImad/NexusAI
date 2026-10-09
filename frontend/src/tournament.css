@@ -1,0 +1,56 @@
+.arena { background:#141516; color:#e8e9eb; }
+.arena main { max-width:1720px; }
+.arena-heading { display:flex; justify-content:space-between; gap:20px; align-items:center; }
+.arena-heading h1 { font-size:28px; font-weight:650; margin:3px 0; }
+.arena-heading p,.arena-section-title span,.arena-inspector>p,.arena-events>p { color:#a6a9ad; font-size:12px; }
+.arena-eyebrow { font-size:11px!important; color:#7cddc7!important; }
+.arena-safety { display:flex; align-items:center; gap:8px; font-size:11px; color:#e9be75; }
+.arena-warning { margin:22px 0; padding:12px 0; border-block:1px solid #4e4432; color:#e9be75; font-size:12px; }
+.arena-warning span { color:#aaaeb2; margin-left:18px; }
+.arena-timeline { padding:0 0 20px; border-bottom:1px solid #343638; }
+.arena-replay-bar { display:flex; gap:8px; align-items:center; }
+.arena-replay-bar button { display:flex; align-items:center; justify-content:center; height:40px; min-width:40px; padding:8px; }
+.arena-replay-bar label { flex-direction:row; align-items:center; gap:10px; margin-left:8px; }
+.arena-replay-bar select { width:80px; }
+.arena-clock { margin-left:auto; display:flex; align-items:center; gap:18px; }
+.arena-clock strong { font-size:18px; font-variant-numeric:tabular-nums; }
+.arena-slider { position:relative; margin-top:14px; }
+.arena-slider input { padding:0; height:18px; min-height:18px; accent-color:#6ed8c0; }
+.arena-slider i { position:absolute; top:2px; width:2px; height:17px; background:#e9be75; pointer-events:none; }
+.arena-range { display:flex; justify-content:space-between; color:#94999e; font-size:11px; gap:15px; }
+.arena-filters { display:flex; gap:18px; align-items:end; flex-wrap:wrap; padding:22px 0; }
+.arena-filters>label { width:150px; }
+.arena-filters>.arena-toggle { flex-direction:row; align-items:center; width:auto; min-height:38px; }
+.arena-toggle input { min-height:16px; width:16px; accent-color:#6ed8c0; }
+.arena-filters>span { color:#999fa5; margin-left:auto; padding-bottom:9px; font-size:12px; }
+.arena-counters { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); padding:16px 0; border-block:1px solid #343638; gap:12px; }
+.arena-counters dt { font-size:10px; color:#a6a9ad; }
+.arena-counters dd { font-size:28px; font-weight:500; margin:5px 0 0; font-variant-numeric:tabular-nums; }
+.arena-family-counts { display:flex; gap:20px; flex-wrap:wrap; font-size:11px; color:#a6a9ad; padding:14px 0; }
+.arena-family-counts strong { color:#e6e8e9; }
+.arena-final { border-left:3px solid #e9be75; padding:12px 16px; margin:12px 0; background:#24231e; }
+.arena-final h2 { font-size:16px; overflow-wrap:anywhere; }.arena-final p { font-size:12px; color:#b5b8bb; }
+.arena-section-title { display:flex; justify-content:space-between; align-items:center; gap:14px; padding:18px 0 10px; }
+.arena h2 { font-size:17px; font-weight:600; }.arena h3 { font-size:13px; font-weight:600; margin:18px 0 10px; }
+.arena-chart { width:100%; }.arena-chart svg { display:block; width:100%; height:240px; }
+.arena-legend { display:flex; gap:20px; flex-wrap:wrap; font-size:11px; }.arena-legend i { display:inline-block; width:10px; height:3px; margin-right:7px; vertical-align:middle; }
+.arena-compare { display:flex; gap:8px; padding:12px 0 20px; flex-wrap:wrap; }.arena-compare button { display:flex; align-items:center; gap:6px; font-size:11px; min-height:28px; padding:4px 7px; }
+.arena-body { display:grid; grid-template-columns:minmax(0,1fr) 310px; gap:24px; border-top:1px solid #343638; }
+.arena-table-scroll { overflow-x:auto; }.arena table { width:100%; border-collapse:collapse; min-width:970px; font-size:12px; text-align:left; font-variant-numeric:tabular-nums; }
+.arena th { color:#9ba2a8; font-weight:400; font-size:10px; padding:12px 8px; border-bottom:1px solid #42464a; white-space:nowrap; }
+.arena td { padding:9px 8px; border-bottom:1px solid #2d3033; }.arena tr.selected { background:#20322e; }.arena tr.withdrawn:not(.selected) { color:#a3a5a8; }
+.arena .arena-strategy { border:0; padding:0; min-height:35px; background:transparent; text-align:left; display:flex; flex-direction:column; align-items:start; width:155px; }
+.arena-strategy strong { font-size:12px; font-weight:500; }.arena-strategy small { color:#979da2; font-size:9px; margin-top:3px; }
+.arena-badge { display:inline-block; font-size:9px; font-weight:600; color:#b4bcc3; line-height:1.4; overflow-wrap:anywhere; }
+.arena-badge.ACTIVE,.arena-badge.RESEARCH_QUALIFIED,.arena-badge.PASS { color:#74dec1; }.arena-badge.AT_RISK,.arena-badge.PENDING,.arena-badge.OUT_OF_SAMPLE { color:#e9be75; }.arena-badge.REJECTED,.arena-badge.FAIL { color:#f3999c; }
+.arena-inspector { border-left:1px solid #343638; padding:22px 0 0 22px; }.arena-inspector h2 { margin:6px 0; }
+.arena-gates>div { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:4px 10px; padding:9px 0; border-bottom:1px solid #303436; }
+.arena-gates strong { font-weight:400; font-size:10px; }.arena-gates small { grid-column:1/-1; color:#979da2; font-size:10px; }
+.arena-detail-metrics>div { display:flex; justify-content:space-between; gap:12px; font-size:11px; padding:5px 0; }.arena-detail-metrics dt { text-transform:capitalize; color:#a6a9ad; }
+.arena details { border-top:1px solid #343638; padding:12px 0; font-size:11px; }.arena summary { cursor:pointer; }.arena pre { font-size:10px; white-space:pre-wrap; overflow-wrap:anywhere; margin-top:10px; }.arena details p,.arena details li { color:#a9b0b5; padding-top:7px; }
+.arena-withdrawn { padding:12px 0; max-height:420px; overflow:auto; }.arena-withdrawn h3 span { color:#a6a9ad; }.arena-withdrawn p { font-size:12px; color:#9da4a9; }
+.arena-withdrawn button { display:grid; grid-template-columns:minmax(130px,1fr) 1fr; width:100%; background:transparent; border:0; border-bottom:1px solid #343638; text-align:left; padding:10px 0; gap:5px; font-size:12px; }.arena-withdrawn small { grid-column:1/-1; color:#9da4a9; overflow-wrap:anywhere; font-size:10px; }
+.arena-events { border-top:1px solid #343638; margin-top:24px; max-height:500px; overflow:auto; }.arena-events>div:not(.arena-section-title) { display:grid; grid-template-columns:170px 110px minmax(0,1fr); gap:14px; padding:10px 0; border-bottom:1px solid #2a2d2f; font-size:11px; }.arena-events time { color:#939ca3; }.arena-events span { overflow-wrap:anywhere; }
+.arena footer { padding:24px 0; color:#818b92; font-size:10px; overflow-wrap:anywhere; }
+@media(max-width:1050px) { .arena-body { grid-template-columns:minmax(0,1fr); }.arena-inspector { border-left:0; border-top:1px solid #343638; padding:20px 0; }.arena-gates { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0 24px; } }
+@media(max-width:600px) { .arena main { padding:20px 14px; }.arena-heading { align-items:start; flex-direction:column; gap:10px; }.arena-heading h1 { font-size:24px; }.arena-warning span { display:block; margin:6px 0 0; }.arena-replay-bar { flex-wrap:wrap; }.arena-clock { order:2; width:100%; margin:8px 0 0; justify-content:space-between; }.arena-clock strong { font-size:14px; }.arena-range { font-size:9px; }.arena-filters { gap:12px; }.arena-filters>label { width:calc(50% - 6px); }.arena-filters>span { margin:0; }.arena-counters { grid-template-columns:repeat(3,minmax(0,1fr)); }.arena-counters dd { font-size:25px; }.arena-section-title { align-items:start; flex-direction:column; gap:4px; }.arena-chart svg { height:190px; }.arena-events>div:not(.arena-section-title) { grid-template-columns:1fr auto; }.arena-events>div>span:last-child { grid-column:1/-1; }.arena-gates { gap:0 14px; } }

@@ -1,0 +1,23 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic>=2.9,<3
+numpy>=2.1
+websockets==12.0
+httpx==0.27.0
+tzdata==2025.2
+python-multipart==0.0.9
+aiosqlite==0.20.0
+python-dotenv==1.0.1
+vaderSentiment==3.3.2
+pytest==9.0.2
+pytest-asyncio==1.3.0
+
+# Uncomment when ready for real data feeds:
+# alpaca-py==0.20.0
+# newsapi-python==0.2.7
+# binance==1.0.19
+# MetaTrader5==5.0.6147  # Optional Windows-only Exness MT5 demo adapter
+
+# Uncomment for real ML (requires GPU for FinBERT):
+# torch==2.3.0
+# transformers==4.44.0

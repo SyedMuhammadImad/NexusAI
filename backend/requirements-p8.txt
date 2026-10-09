@@ -1,0 +1,5 @@
+# Optional offline P8 research only; does not activate models or broker execution.
+# Tested CPython 3.14 environment. Core runtime dependencies remain requirements.txt.
+numpy==2.5.2
+scipy==1.18.1
+scikit-learn==1.9.1

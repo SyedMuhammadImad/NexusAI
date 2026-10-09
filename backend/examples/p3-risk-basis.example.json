@@ -1,0 +1,13 @@
+{
+  "evidence_id": "<RISK_SNAPSHOT_EVIDENCE_ID>",
+  "account_key": "<DERIVED_DEMO_ACCOUNT_KEY>",
+  "currency": "<THREE_LETTER_ACCOUNT_CURRENCY>",
+  "observed_at": "<UTC_ISO8601_OBSERVATION_TIME>",
+  "day_start": "<CURRENT_UTC_DAY_MIDNIGHT>",
+  "week_start": "<CURRENT_UTC_MONDAY_MIDNIGHT>",
+  "day_equity": "<RECORDED_DAY_BASELINE_DECIMAL>",
+  "week_equity": "<RECORDED_WEEK_BASELINE_DECIMAL>",
+  "high_water_equity": "<RECORDED_HIGH_WATER_DECIMAL>",
+  "cash_flow_total": "<SIGNED_CUMULATIVE_CASH_FLOW_DECIMAL>",
+  "cash_flow_evidence_id": "<CASH_FLOW_LEDGER_EVIDENCE_ID>"
+}

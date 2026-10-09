@@ -1,0 +1,24 @@
+.venv
+venv
+env
+__pycache__
+.pytest_cache
+*.pyc
+*.pyo
+*.log
+.env
+data/*.db
+data/*.db-journal
+data/*.sqlite
+data/*.sqlite3
+
+# Private evidence must never enter an image layer.
+data/**/*.sqlite*
+data/**/*.db*
+data/private_*
+data/chat_imports/
+data/lifecycle/
+models/
+private/
+.env*
+!.env.example

@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-09",
+  "source_commit": "68f782bc11ef88205297e65ab5748870ca7e5fbf",
+  "source_workspace_modified": false,
+  "prior_git_history_included": false,
+  "backend_fixture_tests": {
+    "passed": 1226,
+    "warnings": 2334,
+    "seconds": 267.89,
+    "guard_self_checks": 6,
+    "sensitive_operator_access_attempts": 0,
+    "forbidden_runtime_modules": []
+  },
+  "frontend": {
+    "fresh_npm_ci": true,
+    "production_build": "passed",
+    "modules_transformed": 1883
+  },
+  "connector": {
+    "fresh_npm_ci": true,
+    "mocked_tests_passed": 32,
+    "real_pairing_or_session_used": false
+  },
+  "dependency_audit": {
+    "frontend": {
+      "info": 0,
+      "low": 0,
+      "moderate": 2,
+      "high": 6,
+      "critical": 0,
+      "total": 8
+    },
+    "connector": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    }
+  },
+  "credential_scan": {
+    "tool": "Gitleaks 8.30.1",
+    "scope": "entire fresh repository history",
+    "findings": 0
+  },
+  "limitations": [
+    "Fixture tests do not qualify actual broker connectivity, profitable trading, native account state or real WhatsApp delivery.",
+    "The retained frontend dependency tree has unresolved advisories; the CI security job reports this failure.",
+    "Private records, research datasets/model binaries, credentials, real account/session evidence and media are excluded.",
+    "No operator task, trade, fitting on private owner data or production deployment was performed by publication."
+  ]
+}

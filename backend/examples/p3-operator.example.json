@@ -1,0 +1,19 @@
+{
+  "account": {
+    "account_id": "<ALLOWED_DEMO_LOGIN_AS_STRING>",
+    "server": "<EXACT_DEMO_SERVER>",
+    "currency": "<THREE_LETTER_ACCOUNT_CURRENCY>",
+    "mode": "DEMO",
+    "evidence_source": "MT5_DEMO"
+  },
+  "password": "<SUPPLY_LOCALLY_DO_NOT_SHARE>",
+  "terminal_exe": "<ABSOLUTE_PRIVATE_TERMINAL_EXE_PATH>",
+  "terminal_sha256": "<64_LOWERCASE_HEX_SHA256>",
+  "service_sid": "<DEDICATED_WINDOWS_SERVICE_SID>",
+  "broker_company": "<EXACT_BROKER_COMPANY>",
+  "terminal_company": "<EXACT_TERMINAL_COMPANY>",
+  "source_id": "<AUTHORIZED_MANUAL_SOURCE_ID>",
+  "symbols": ["<APPROVED_INSTRUMENT_SYMBOL>"],
+  "policy_version": "P2-DEMO-1.0",
+  "host_attestation": "LOCAL"
+}

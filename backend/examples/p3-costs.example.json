@@ -1,0 +1,10 @@
+{
+  "evidence_id": "<VALIDATED_COST_EVIDENCE_ID>",
+  "account_key": "<DERIVED_DEMO_ACCOUNT_KEY>",
+  "currency": "<THREE_LETTER_ACCOUNT_CURRENCY>",
+  "observed_at": "<UTC_ISO8601_COST_OBSERVATION_TIME>",
+  "valid_until": "<UTC_ISO8601_COST_EXPIRY_TIME>",
+  "commission_per_lot": {
+    "<APPROVED_INSTRUMENT_SYMBOL>": "<VALIDATED_NONNEGATIVE_ROUND_TRIP_COST_PER_LOT>"
+  }
+}
